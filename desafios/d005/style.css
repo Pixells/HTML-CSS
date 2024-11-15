@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    padding-top: 10px;
+    width: 80%;               /* Ajusta o tamanho conforme a tela */
+    max-width: 500px;         /* Limita o tamanho máximo */
+    margin: auto;           /* Centraliza o conteúdo */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra suave no texto */
+    text-align: center;       /* Alinha o texto ao centro */
+    color: white;
+    background-color: rgb(164, 204, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header {
+    margin: 0;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    width: 500px;
+    padding: 100px;
+    background-color: rgb(39, 124, 124);
+}
+
+ul {
+    margin: 0;
+    text-align: left;         /* Alinha os itens à esquerda */
+}
+
+#perfil {
+    width: 200px;
+    height: 200px;            /* Igualar a altura à largura */
+    border-radius: 50%;       /* Torna a imagem circular */
+    object-fit: cover;        /* Para imagem não ser distorcida */
+}
+
+ul .inativo {
+    text-decoration: line-through; /* Risca itens inativos */
+}
