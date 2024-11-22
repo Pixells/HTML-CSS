@@ -5,18 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes em CSS</title>
     <style>
-        body{
-            font-family: 'Courier New', Courier, monospace;
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-        h1, h2{
-            font-family: 'Times New Roman', Times, serif;
+        body{
+            font-family: "Work Sans", serif;
+
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            /* Lighter normal bold bolder */
+        }
+        h1 {
+            /* font-family: "Work Sans", sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            (shorthand font)
+            Ordem para usar font
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em "Work Sans", Sans-serif;
+        }
+        h2 {
+            font: bold 2em "Work Sans", sans-serif;
         }
     </style>
 </head>
 <body>
     <h1>Trabalhando com fontes</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat, vitae quas officiis quam sunt nemo temporibus minima esse, voluptatum blanditiis asperiores maiores fugit recusandae? Dolore aliquid corporis facilis enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui impedit similique obcaecati quam esse repellat ea molestias sunt nesciunt doloribus, laudantium voluptate tenetur, soluta tempore voluptas delectus saepe necessitatibus voluptates!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat error reprehenderit a exercitationem dignissimos, iste, corporis eum, consequuntur pariatur modi nobis impedit nemo maxime! Voluptatum repellendus sapiente enim voluptatibus cumque.</p>
     
     <h2>Subtítulo do exercício</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio autem, optio consequuntur ullam dolorum et laboriosam eligendi ipsam? Maxime perferendis quas consectetur? Corrupti inventore eius, in autem modi saepe quae?</p>
