@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: "RC-Demo";
+            src: url("./fonts/R&C-Demo.otf") format("opentype");
+            font-weight: normal;
+            font-style: normal;
+
+        /* Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+        */
+        }
+
+        @font-face {
+            font-family: 'Galaksi';
+            src: url("./fonts/Galaksi.ttf") format("truetype");
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'RC-Demo', Times, serif;
+            font-size: 5em;
+            color: rgb(53, 53, 53);
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem praesentium beatae facilis inventore, reprehenderit eaque porro? Eligendi at autem explicabo blanditiis voluptatibus omnis asperiores dolores eum! Enim harum ea fuga.</p>
+
+    <h1 style="font-family: 'Galaksi', Helvetica, sans-serif; color: rgb(15, 0, 83);">Título 2</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos aut omnis architecto numquam, ratione consequatur incidunt, nisi eius quos illum maxime ullam suscipit eveniet cum laborum expedita. Sit, odit ullam.</p>
+</body>
+</html>
